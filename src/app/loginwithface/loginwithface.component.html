@@ -1,0 +1,31 @@
+<div class="container-fluid myContainer" style="padding: 5%;">
+
+    <div class="d-flex justify-content-center h-100">
+
+        <div class="card carte">
+
+            <div class="card-body">
+
+                <div class="row justify-content-center align-item-center" style="margin-bottom:2%;">
+
+                    <h5>Center your face, smile and Take a photo</h5>
+
+                </div>
+                <div class="row align-item-center justify-content-center ">
+                    <div class="col-6 div">
+                        <div><video #video id="video" style="border: 1px solid #FFFFFF; margin-left: 12%;" width="208" height="160" autoplay class="vid"></video></div>
+                    </div>
+                </div>
+                <canvas #canvas id="canvas" width="208" height="160" style="display:none;"></canvas>
+
+                <div class="row align-item-center justify-content-center">
+                  <button type="button" class="btn btn-primary" (click)="send();" style="padding-left:10%;padding-right:10%;"> Take Picture </button>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
