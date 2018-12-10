@@ -42,7 +42,6 @@ getPersonneCam(base64Image: string) {
 
 
 
-
 }
 private makeblob(dataURL) {
   const BASE64_MARKER = ';base64,';
